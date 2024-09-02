@@ -17,12 +17,12 @@ export default function App() {
 
   return (
     <SettingsProvider>
-      <AuthProvider>
+      {/* <AuthProvider> */}
         <MatxTheme>
           <CssBaseline />
           {content}
         </MatxTheme>
-      </AuthProvider>
+      {/* </AuthProvider> */}
     </SettingsProvider>
   );
 }

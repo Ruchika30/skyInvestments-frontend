@@ -115,7 +115,7 @@ export default function FirebaseLogin() {
   };
 
   return (
-    <FirebaseRoot>
+    // <FirebaseRoot>
       <Card className="card">
         <Grid container>
           <Grid item sm={6} xs={12}>
@@ -234,6 +234,6 @@ export default function FirebaseLogin() {
           </Grid>
         </Grid>
       </Card>
-    </FirebaseRoot>
+    // </FirebaseRoot>
   );
 }

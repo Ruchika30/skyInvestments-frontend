@@ -39,6 +39,11 @@ export const navigations = [
     children: [{ name: "Echarts", path: "/charts/echarts", iconText: "E" }]
   },
   {
+    name: "Table",
+    icon: "trending_up",
+    children: [{ name: "Echarts", path: "/charts/Table", iconText: "E" }]
+  },
+  {
     name: "Documentation",
     icon: "launch",
     type: "extLink",

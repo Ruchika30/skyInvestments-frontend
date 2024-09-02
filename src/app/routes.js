@@ -14,6 +14,10 @@ import materialRoutes from "app/views/material-kit/MaterialRoutes";
 const AppEchart = Loadable(lazy(() => import("app/views/charts/echarts/AppEchart")));
 // DASHBOARD PAGE
 const Analytics = Loadable(lazy(() => import("app/views/dashboard/Analytics")));
+// Dummy table
+
+const AppTable = Loadable(lazy(() => import("app/views/Table")));
+
 
 const routes = [
   {
@@ -38,6 +42,11 @@ const routes = [
       {
         path: "/charts/echarts",
         element: <AppEchart />,
+        auth: authRoles.editor
+      },
+      {
+        path: "/charts/Table",
+        element: <AppTable />,
         auth: authRoles.editor
       }
     ]
