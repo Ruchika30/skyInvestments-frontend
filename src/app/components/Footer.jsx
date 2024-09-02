@@ -24,6 +24,7 @@ const AppFooter = styled(Toolbar)(() => ({
 const FooterContent = styled("div")(() => ({
   width: "100%",
   display: "flex",
+  justifyContent:'center',
   alignItems: "center",
   padding: "0px 1rem",
   maxWidth: "1170px",
@@ -41,16 +42,9 @@ export default function Footer() {
       <AppBar color="primary" position="static" sx={{ zIndex: 96 }}>
         <AppFooter>
           <FooterContent>
-            <a href="https://ui-lib.com/downloads/matx-pro-react-admin/">
-              <Button variant="contained" color="secondary">
-                Get MatX Pro
-              </Button>
-            </a>
-
-            <Span m="auto"></Span>
-
+          
             <Paragraph m={0}>
-              Design and Developed by <a href="http://ui-lib.com">UI Lib</a>
+              Copyrights owned by <a href="http://ui-lib.com">Sky Investments</a>
             </Paragraph>
           </FooterContent>
         </AppFooter>
